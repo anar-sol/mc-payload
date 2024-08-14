@@ -1,0 +1,13 @@
+build
+dist
+/media
+node_modules
+.DS_Store
+.env
+.env.example
+images
+docker-compose.yml
+Dockerfile
+nodemen.json
+README.md
+tsconfig.json
