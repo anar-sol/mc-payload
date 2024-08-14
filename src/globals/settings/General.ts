@@ -12,7 +12,6 @@ const General: GlobalConfig = {
         {
             name: "siteTitle",
             type: "text",
-            required: true,
             maxLength: 100,
             hooks: {
                 beforeValidate: [
@@ -26,7 +25,6 @@ const General: GlobalConfig = {
         {
             name: "siteDescription",
             type: "textarea",
-            required: true,
             maxLength: 160,
             hooks: {
                 beforeValidate: [
@@ -40,7 +38,6 @@ const General: GlobalConfig = {
         {
             name: "languages",
             type: "text",
-            required: true,
             defaultValue: "en",
             hooks: {
                 beforeValidate: [
@@ -53,7 +50,6 @@ const General: GlobalConfig = {
         {
             name: "copyrightOwner",
             type: "text",
-            required: true,
             maxLength: 100,
             hooks: {
                 beforeValidate: [

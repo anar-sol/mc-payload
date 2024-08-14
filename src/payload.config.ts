@@ -14,9 +14,6 @@ import Posts from './collections/content/Posts'
 import Pages from './collections/content/Pages'
 
 import General from './globals/settings/General'
-import MainNav from './globals/settings/MainNav'
-import SecondaryNav from './globals/settings/SecondaryNav'
-import SocialMedia from './globals/settings/SocialMedia'
 
 export default buildConfig({
   admin: {
@@ -41,7 +38,7 @@ export default buildConfig({
     ].includes(key))
   }),
   collections: [Posts, Pages, Images, Videos, Categories, Users],
-  globals: [General, MainNav, SecondaryNav, SocialMedia],
+  globals: [General,],
   localization: {
     locales: [
       {
