@@ -10,4 +10,3 @@ docker-compose.yml
 Dockerfile
 nodemen.json
 README.md
-tsconfig.json

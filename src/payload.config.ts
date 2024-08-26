@@ -13,6 +13,8 @@ import Videos from './collections/content/Videos'
 import Posts from './collections/content/Posts'
 import Pages from './collections/content/Pages'
 
+import ExternalPatterns from "./collections/patterns/Patterns"
+
 import General from './globals/settings/General'
 
 export default buildConfig({
@@ -37,7 +39,7 @@ export default buildConfig({
       "bold"
     ].includes(key))
   }),
-  collections: [Posts, Pages, Images, Videos, Categories, Users],
+  collections: [Posts, Pages, Images, Videos, Categories, ExternalPatterns, Users],
   globals: [General,],
   localization: {
     locales: [

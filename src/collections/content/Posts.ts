@@ -150,6 +150,16 @@ const Posts: CollectionConfig = {
         },
         MetaTitle,
         MetaDescription,
+        {
+            name: "pattern",
+            type: "relationship",
+            relationTo: "patterns",
+            hasMany: false,
+            admin: {
+                position: "sidebar",
+            },
+            localized: true,
+        },
     ],
 };
 
